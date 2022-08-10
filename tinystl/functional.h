@@ -1,0 +1,4 @@
+#ifndef TINYSTL_FUNCTIONAL_H_
+#define TINYSTL_FUNCTIONAL_H_
+
+#endif
