@@ -23,6 +23,6 @@ elseif (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/tinystl)
-set(APP_SRC test.cc)
+set(APP_SRC test.cc test.h)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 add_executable(stltest ${APP_SRC})
